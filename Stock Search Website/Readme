@@ -1,0 +1,13 @@
+Requirements and description can be found in Description.pdf
+Created a static (non-responsive) HTML page that would take a stock ticker as the user input and then fetch details by making
+multiple async API calls (Flask) and converting result to required data in JSON. 
+Dynamically shows either an error message or brings up a nav bar and a table with company details with the option to switch to tabs 
+with other details including chart view history (using Highcharts), stock price ranges for the day and latest news about the company.
+
+This implementation uses Javascript to interact with backend and CSS for the front end effects, such as SVGs for effects on images 
+and dynamically adding/removing class and innerHTML to replace sections altogether
+
+Hosted on GCP (Google Cloud Platform), can be found here:
+https://website-stocks.wl.r.appspot.com/
+
+Reference video for duplication also shared in the folder.
